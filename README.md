@@ -3,8 +3,15 @@ Toong App for Grafana that is UI for automation provisioning software to IoT dev
 
 ## Development
 
-Install `yarn` as global
+### Prerequisite
+
+- `node` >= 12
+- `yarn`
+
+### Setup
 
 ```bash
-npm run --users
+yarn install
+
+npm run bootstrap
 ```
