@@ -1,6 +1,6 @@
 {
   "name": "topmo-12-toong-datasource",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Toong Data Source for Grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
@@ -14,9 +14,9 @@
     "@grafana/data": "^7.3.6",
     "@grafana/toolkit": "^7.3.6",
     "@grafana/ui": "^7.3.6",
-    "@types/lodash": "latest",
     "@testing-library/jest-dom": "5.4.0",
-    "@testing-library/react": "^10.0.2"
+    "@testing-library/react": "^10.0.2",
+    "@types/lodash": "latest"
   },
   "resolutions": {
     "rxjs": "6.6.3"
