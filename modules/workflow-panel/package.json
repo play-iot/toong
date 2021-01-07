@@ -1,0 +1,31 @@
+{
+  "name": "topmo-12-workflow-panel",
+  "version": "1.0.0",
+  "description": "Toong Provision Workflow Panel for Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafana/simple-react-panel.git"
+  },
+  "author": "zero88",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/grafana/simple-react-panel/issues",
+    "email": "plugins@grafana.com"
+  },
+  "devDependencies": {
+    "@grafana/data": "^7.0.0",
+    "@grafana/toolkit": "^7.0.0",
+    "@grafana/ui": "^7.0.0",
+    "emotion": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/grafana/simple-react-panel#readme"
+}

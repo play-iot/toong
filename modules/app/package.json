@@ -1,0 +1,35 @@
+{
+  "name": "topmo-12-toong-app",
+  "version": "0.0.1",
+  "description": "Toong Application for Grafana",
+  "author": "zero88 <sontt246@gmail.com>",
+  "homepage": "https://github.com/topmo12/toong#readme",
+  "license": "Apache-2.0",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "toolkit": "grafana-toolkit"
+  },
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topmo12/toong.git"
+  },
+  "bugs": {
+    "url": "https://github.com/topmo12/toong/issues"
+  },
+  "devDependencies": {
+    "@grafana/data": "^7.3.6",
+    "@grafana/toolkit": "^7.3.6",
+    "@grafana/ui": "^7.3.6"
+  }
+}
