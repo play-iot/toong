@@ -1,0 +1,19 @@
+{
+  "name": "toong",
+  "version": "0.0.1",
+  "description": "Toong App for Grafana that is UI for automation provisioning software to IoT devices",
+  "main": "index.js",
+  "repository": "https://github.com/topmo12/toong",
+  "author": "zero88",
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "@grafana/toolkit": "^7.3.6"
+  },
+  "scripts": {
+    "toolkit": "grafana-toolkit"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "zero-88-device-panel",
+  "version": "1.0.0",
+  "description": "Toong Device Panel for Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": "github:grafana/simple-react-panel",
+  "author": "zero88",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/grafana/simple-react-panel/issues",
+    "email": "plugins@grafana.com"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
