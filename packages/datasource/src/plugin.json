@@ -1,15 +1,16 @@
 {
-  "type": "panel",
-  "name": "device-panel",
-  "id": "toong-device-panel",
+  "type": "datasource",
+  "name": "datasource",
+  "id": "toong-datasource",
+  "metrics": true,
   "info": {
-    "description": "Toong Device Panel for Grafana",
+    "description": "Toong Data Source for Grafana",
     "author": {
       "name": "zero88",
       "url": ""
     },
     "keywords": [
-      "grafana-panel-plugin"
+      "grafana-datasource-plugin"
     ],
     "logos": {
       "small": "img/logo.svg",
@@ -18,11 +19,11 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/simple-react-panel"
+        "url": "https://github.com/grafana/simple-datasource"
       },
       {
         "name": "License",
-        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+        "url": "https://github.com/grafana/simple-datasource/blob/master/LICENSE"
       }
     ],
     "screenshots": [],
@@ -30,7 +31,7 @@
     "updated": "%TODAY%"
   },
   "dependencies": {
-    "grafanaVersion": "7.0.x",
+    "grafanaVersion": "6.5.x",
     "plugins": []
   }
 }

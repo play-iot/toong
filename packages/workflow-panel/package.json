@@ -1,7 +1,7 @@
 {
-  "name": "toong-device-panel",
+  "name": "toong-workflow-panel",
   "version": "1.0.0",
-  "description": "Toong Device Panel for Grafana",
+  "description": "Toong Provision Workflow Panel for Grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",

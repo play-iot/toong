@@ -1,0 +1,58 @@
+{
+  "type": "app",
+  "name": "Simple App",
+  "id": "toong-app",
+
+  "info": {
+    "author": {
+      "name": "Grafana Project",
+      "url": "https://grafana.com"
+    },
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "includes": [
+    {
+      "type": "page",
+      "name": "Root Page (react)",
+      "path": "/a/toong-app",
+      "role": "Viewer",
+      "addToNav": true,
+      "defaultNav": true
+    },
+    {
+      "type": "page",
+      "name": "Root Page (tab B)",
+      "path": "/a/toong-app/?tab=B",
+      "role": "Viewer",
+      "addToNav": true
+    },
+    {
+      "type": "page",
+      "name": "Config",
+      "path": "/plugins/toong-app/?page=page2",
+      "role": "Admin",
+      "addToNav": true
+    },
+    {
+      "type": "dashboard",
+      "name": "Streaming Example",
+      "path": "dashboards/streaming.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "Lots of Stats",
+      "path": "dashboards/stats.json"
+    }
+  ],
+
+  "dependencies": {
+    "grafanaVersion": "6.6.x",
+    "plugins": []
+  }
+}

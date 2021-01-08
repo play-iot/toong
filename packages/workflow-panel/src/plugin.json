@@ -1,12 +1,12 @@
 {
   "type": "panel",
-  "name": "device-panel",
-  "id": "toong-device-panel",
+  "name": "workflow-panel",
+  "id": "toong-workflow-panel",
   "info": {
-    "description": "Toong Device Panel for Grafana",
+    "description": "Toong Provision Workflow Panel for Grafana",
     "author": {
       "name": "zero88",
-      "url": ""
+      "url": "https://github.com/topmo12/toong"
     },
     "keywords": [
       "grafana-panel-plugin"

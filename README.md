@@ -12,6 +12,4 @@ Toong App for Grafana that is UI for automation provisioning software to IoT dev
 
 ```bash
 yarn install
-
-npm run bootstrap
 ```

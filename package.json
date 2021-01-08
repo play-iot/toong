@@ -11,7 +11,8 @@
     "@grafana/toolkit": "^7.3.6"
   },
   "scripts": {
-    "toolkit": "grafana-toolkit"
+    "tk": "grafana-toolkit",
+    "dev:docker": "docker-compose -f docker/grafana-dev-dkc.yml --env-file docker/.env up"
   },
   "workspaces": [
     "packages/*"
