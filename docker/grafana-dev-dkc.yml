@@ -1,0 +1,20 @@
+version: '2.4'
+
+services:
+  grafana:
+    image: grafana/grafana:${GRAFANA_VERSION}
+    ports:
+      - ${GRAFANA_PORT}:3000/tcp
+    environment:
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_BASIC_ENABLED=false
+      - GF_ENABLE_GZIP=true
+      - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=toong-app,toong-datasource,toong-device-panel,toong-workflow-panel
+      # Uncomment to run in debug mode
+      # - GF_LOG_LEVEL=debug
+    volumes:
+      - ../packages/app/dist:/var/lib/grafana/plugins/toong-app
+      - ../packages/datasource/dist:/var/lib/grafana/plugins/toong-datasource
+      - ../packages/device-panel/dist:/var/lib/grafana/plugins/toong-device-panel
+      - ../packages/workflow-panel/dist:/var/lib/grafana/plugins/toong-workflow-panel
