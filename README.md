@@ -18,7 +18,7 @@ This is monorepo that is used [yarn workspace](https://classic.yarnpkg.com/en/do
 yarn install
 
 ## Build
-yarn workspaces run build
+yarn build
 
 ## Create new Grafana plugin
 yarn grafana:create <module_name>

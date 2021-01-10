@@ -14,7 +14,7 @@
     "pregrafana:create": "node scripts/create_module_lifecycle.js",
     "grafana:create": "grafana-toolkit plugin:create",
     "postgrafana:create": "node scripts/create_module_lifecycle.js",
-    "build": "yarn workspace toong-app build",
+    "build": "yarn workspaces run build",
     "dev:docker": "docker-compose -f docker/grafana-dev-dkc.yml --env-file docker/.env up"
   },
   "devDependencies": {
