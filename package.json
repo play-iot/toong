@@ -7,13 +7,19 @@
   "author": "zero88",
   "license": "Apache-2.0",
   "private": true,
-  "devDependencies": {
-    "@grafana/toolkit": "^7.3.6"
+  "engines": {
+    "node": ">=12"
   },
   "scripts": {
-    "tk": "grafana-toolkit",
+    "pregrafana:create": "node scripts/create_module_lifecycle.js",
+    "grafana:create": "grafana-toolkit plugin:create",
+    "postgrafana:create": "node scripts/create_module_lifecycle.js",
     "build": "yarn workspace toong-app build",
     "dev:docker": "docker-compose -f docker/grafana-dev-dkc.yml --env-file docker/.env up"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "^7.3.6",
+    "fs-extra": "^9.0.1"
   },
   "workspaces": [
     "packages/*"
