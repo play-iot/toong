@@ -14,7 +14,7 @@ services:
       # Uncomment to run in debug mode
       # - GF_LOG_LEVEL=debug
     volumes:
-      - ../packages/app/dist:/var/lib/grafana/plugins/toong-app
-      - ../packages/datasource/dist:/var/lib/grafana/plugins/toong-datasource
-      - ../packages/device-panel/dist:/var/lib/grafana/plugins/toong-device-panel
-      - ../packages/workflow-panel/dist:/var/lib/grafana/plugins/toong-workflow-panel
+      - ../modules/app/dist:/var/lib/grafana/plugins/toong-app
+      - ../modules/datasource/dist:/var/lib/grafana/plugins/toong-datasource
+      - ../modules/device-panel/dist:/var/lib/grafana/plugins/toong-device-panel
+      - ../modules/workflow-panel/dist:/var/lib/grafana/plugins/toong-workflow-panel
