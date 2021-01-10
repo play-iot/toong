@@ -14,14 +14,19 @@
     "@grafana/data": "^7.3.6",
     "@grafana/toolkit": "^7.3.6",
     "@grafana/ui": "^7.3.6",
-    "@types/lodash": "latest",
     "@testing-library/jest-dom": "5.4.0",
-    "@testing-library/react": "^10.0.2"
+    "@testing-library/react": "^10.0.2",
+    "@types/lodash": "latest"
   },
   "engines": {
     "node": ">=12"
   },
   "resolutions": {
+    "rxjs": "6.6.3"
+  },
+  "dependencies": {
+    "@grafana/runtime": "7.3.6",
+    "enumify": "^2.0.0",
     "rxjs": "6.6.3"
   }
 }

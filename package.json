@@ -12,6 +12,7 @@
   },
   "scripts": {
     "tk": "grafana-toolkit",
+    "build": "yarn workspace toong-app build",
     "dev:docker": "docker-compose -f docker/grafana-dev-dkc.yml --env-file docker/.env up"
   },
   "workspaces": [
