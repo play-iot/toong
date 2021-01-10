@@ -15,9 +15,11 @@
     "url": "https://github.com/grafana/simple-react-panel/issues",
     "email": "plugins@grafana.com"
   },
-  "devDependencies": {
-  },
   "engines": {
     "node": ">=12"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "react-flow-renderer": "^8.3.2"
   }
 }
